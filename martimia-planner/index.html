@@ -11,17 +11,12 @@
         <header id="main-header">
             <div class="wrapper">
                 <img src="img/logo com nome.png" alt="Logo Maritmia">
-                <h1></h1>
+                <button onclick="createChart(data)"><img class="user-button" src="img/calendar-plus.svg" alt="user"></button>
                 <button onclick="openModal('#add-stock')"><img class="user-button" src="img/user.png" alt="user"></button>
             </div>
         </header>
-        <div class="wrapper" id="tickers-list">
-            <div class="ticker">
-                <button class="btn-close"  onclick="removeTicker(event)">x</button>
-                <button class="btn-refresh" onclick="refreshTicker(event)">R</button>
-                <h2>AMZN</h2>
-                <p>3,172.69</p>
-            </div>
+        <div id="teste">
+            
         </div>
         <div class="modal" id="add-stock">
             <div class="modal-content">
@@ -35,6 +30,8 @@
                 </form>
             </div>
         <div>
+        <script src="https://d3js.org/d3.v7.min.js"></script>
         <script src="js/main.js"></script>
     </body>
 </html>
+

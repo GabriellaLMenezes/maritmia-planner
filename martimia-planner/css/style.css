@@ -19,6 +19,7 @@ body {
 #main-header img{
     width: 190px;
     height: 70px;
+    background: #031634;
 }
 #main-header .wrapper{
     display:flex;
@@ -43,6 +44,12 @@ body {
 .wrapper{
     width: 90%;
     margin: 0 auto;
+}
+
+#teste{
+    width: 35%;
+    height: 35%;
+    margin: 2.5% auto;
 }
 
 .modal{
